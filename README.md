@@ -37,23 +37,23 @@ Employee_one = 0xBdAEacADFDA135E268dD01ac25A5ce344Aba777d
 Employee_two = 0x18fD6ddAB71F13438895BF4F3E19A837a2964720
 Employee_three = 0x65db76C1834AE3fBdC158cebDe06BC38F5b018e2
 
-![Ganache](Screenshots/Ganache.png)
+![Ganache](Screenshots/Ganache.PNG)
 
 When the contract is deployed, we need to make sure that it is deployed from the 'main account. In the Deploy section, enter the three employee addresses and hit transact.
 
-![Contractdeployed](Screenshots/contract1deploy.png)
+![Contractdeployed](Screenshots/contract1deploy.PNG)
 
 Once the contract has been successfully deployed, under Deployed Contracts, click on the AssociateProfitSplitter drop down. Two buttons named deposit and balance should appear. The Balance button with show the contract start balance is 0.
 
-![Contractdeployed](Screenshots/contract_deploy_balance_0.png)
+![Contractdeployed](Screenshots/contract_deploy_balance_0.PNG)
 
 Next, in the amount box, put 10 Ether and click deposit. The contract will run and transfer the money from the 'main account' evenly to the employers accounts.
 
-![Etherout](Screenshots/10ether_out_of_main_account.png)
+![Etherout](Screenshots/10ether_out_of_main_account.PNG)
 
 In the other employers account, we can see the account balance has increased by 3.33 Eth.
 
-![Etherout](Screenshots/Ganache_new_balance.png)
+![Etherout](Screenshots/Ganache_new_balance.PNG)
 
 ## Level 2
 
