@@ -57,3 +57,25 @@ In the other employers account, we can see the account balance has increased by 
 
 ## Level 2
 
+In this contract, rather than splitting the profits between Associate-level employees, we will calculate rudimentary percentages for different tiers of employees (CEO, CTO, and Bob).
+
+The current balances of the account are:
+
+![Etherout](Screenshots/Ganache_new_balance.PNG)
+
+The first is the main account and other accounts are for the CEO, CTO and Bob.
+
+The contract will be deployed from the main address. Once deployed, we will enter the three addresses and click Transact.
+
+![deployed](Screenshots/contract2_deployed.PNG)
+
+Once deployed, we will see a TieredProfitSplitter drop down with two buttons for Deposit and Balance. Check that the Balance is 0.
+
+![deployed](Screenshots/contract2_balance_0.PNG)
+
+To run the contract, put 10 Ether in the Value box and press the Deposit Button. The amount should be transfered to the respective addresses as per the details in the contract.
+
+![deployed](Screenshots/contract2_ganache_updated.PNG)
+
+As you can see, the initial balance of the accounts was 103.33 Eth where as now the accounts have been updated successfully.
+
