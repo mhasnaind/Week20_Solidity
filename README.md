@@ -79,3 +79,25 @@ To run the contract, put 10 Ether in the Value box and press the Deposit Button.
 
 As you can see, the initial balance of the accounts was 103.33 Eth where as now the accounts have been updated successfully.
 
+## Level 3: The DeferredEquityPlan Contract
+
+
+In this contract, we will be managing an employee's "deferred equity incentive plan" in which 1000 shares will be distributed over 4 years to the employee. We won't need to work with Ether in this contract, but we will be storing and setting amounts that represent the number of distributed shares the employee owns and enforcing the vetting periods automatically.
+
+For this contract, we need to set up two versions of the solidity contract. One version with the actual code for deferred equity and another with 'faketime' which will enable us to bring forward time and demonstrate how the contract vests Ether to the employees over the vesting period.
+
+The initial code is saved as DeferredEquityplan_assignment.sol and the one with faketime is saved as DeferredEquityplan_faketime_assignment.sol
+
+Load the contract with faketime and deploy it by entering the employees address in the deploy box:
+
+![deployed](Screenshots/contract3_deploy.PNG)
+
+Once deployed, a DeferredEquityPlan dropbox should appear Once you expand it, it should have the following boxes:
+
+Deactivate, distribute, fastforward and distributed_shares.
+
+Click on distribute to begin the process. 
+
+To bring forward time, click on the fastforward button. Each time it's pressed, it brings forward time by 100 days. To bring it forward for a year, click on it four times. Once you hit the distribute_shares button, the balance will display 250. 
+
+![deployed](Screenshots/contract3_vestedshares_balance.PNG)
