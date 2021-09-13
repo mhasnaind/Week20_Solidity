@@ -37,11 +37,11 @@ Employee_one = 0xBdAEacADFDA135E268dD01ac25A5ce344Aba777d
 Employee_two = 0x18fD6ddAB71F13438895BF4F3E19A837a2964720
 Employee_three = 0x65db76C1834AE3fBdC158cebDe06BC38F5b018e2
 
-![Ganache](Screenshots/Ganache.PNG)
+![Ganache](Screenshots/ganache.PNG)
 
 When the contract is deployed, we need to make sure that it is deployed from the 'main account. In the Deploy section, enter the three employee addresses and hit transact.
 
-![Contractdeployed](Screenshots/contract1deploy.PNG)
+![Contractdeployed](Screenshots/contract1_deploy.PNG)
 
 Once the contract has been successfully deployed, under Deployed Contracts, click on the AssociateProfitSplitter drop down. Two buttons named deposit and balance should appear. The Balance button with show the contract start balance is 0.
 
